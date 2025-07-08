@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedButton">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+    <style name="FloatingLabelStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint_form</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "261065723962",
+    "project_id": "arepretards",
+    "storage_bucket": "arepretards.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261065723962:android:301aa3b6b6c2e347852503",
+        "android_client_info": {
+          "package_name": "com.example.studentwell"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF-lE6m_WUx38oT9QvBcqVGzGav-he8xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

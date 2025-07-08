@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundLight"
+    android:padding="24dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- App Logo -->
+            <ImageView
+                android:id="@+id/appLogo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_logo"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="App Logo" />
+
+            <!-- App Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="StudentWell"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/primaryText"
+                android:layout_marginBottom="8dp" />
+
+            <!-- App Description -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="StudentWell helps you stay healthy by tracking your steps, water intake, and sleep. It also locates nearby workout places and manage your task everyday!"
+                android:textSize="16sp"
+                android:textColor="@color/secondaryText"
+                android:layout_marginBottom="16dp"
+                android:lineSpacingExtra="4dp" />
+
+            <!-- Developer Info -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developed by: Group 1\nYear: 2025\nProject: ICT602"
+                android:textSize="14sp"
+                android:textColor="@color/secondaryText"
+                android:gravity="center" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navHeaderContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="16dp"
+    android:fitsSystemWindows="true">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+    <!-- ✅ Profile Image -->
+    <ImageView
+        android:id="@+id/nav_header_image"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/profile_circle"
+        android:background="@drawable/rounded_circle_bg"
+        android:scaleType="centerCrop"
+        android:clipToOutline="true" />
+
+    <TextView
+        android:id="@+id/nav_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/nav_header_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username@example"
+        android:textColor="@android:color/white" />
+</LinearLayout>

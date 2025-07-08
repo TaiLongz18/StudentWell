@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="purple_200">#BB86FC</color>
+        <color name="purple_500">#6200EE</color>
+        <color name="purple_700">#3700B3</color>
+        <color name="teal_200">#03DAC5</color>
+        <color name="black">#000000</color>
+        <color name="white">#FFFFFF</color>
+        <color name="colorPrimary">#4CAF50</color>
+        <color name="colorPrimaryDark">#388E3C</color>
+        <color name="colorAccent">#FFA726</color>
+        <color name="backgroundSoft">#F9F9F9</color>
+        <color name="textDark">#333333</color>
+        <color name="green">#4CAF50</color>
+        <color name="green_dark">#388E3C</color>
+        <color name="Gray">#888888</color>
+        <color name="teal_700">#388E3C</color> <!-- Your Register button green -->
+        <color name="light_box">#F5F5F5</color> <!-- Soft light grey -->
+        <color name="hint_gray">#888888</color>
+        <color name="text_black">#000000</color>
+        <color name="login_blue">#1976D2</color>
+        <color name="form_background">#FFFFFF</color>
+        <color name="text_primary">#000000</color>
+        <color name="text_hint_form">#A9A9A9</color>
+        <color name="grey">#757575</color>
+        <color name="backgroundLight">#ECEFF1</color>
+        <color name="primaryText">#212121</color>
+        <color name="secondaryText">#424242</color>
+        <color name="background_light">#FFFFFF</color> <!-- or any soft color like #F5F5F5 -->
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- App Logo -->
+            <ImageView
+                android:id="@+id/logoImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="24dp"
+                android:src="@drawable/ic_logo"
+                android:contentDescription="App Logo" />
+
+            <!-- Username -->
+            <EditText
+                android:id="@+id/usernameRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint_form"
+                android:background="@drawable/rounded_edittext_bg"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Email -->
+            <EditText
+                android:id="@+id/emailRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint_form"
+                android:background="@drawable/rounded_edittext_bg"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Password with Show/Hide -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp">
+
+                <EditText
+                    android:id="@+id/passwordRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/text_primary"
+                    android:textColorHint="@color/text_hint_form"
+                    android:background="@drawable/rounded_edittext_bg"
+                    android:padding="12dp" />
+
+                <ImageView
+                    android:id="@+id/toggleRegisterPasswordVisibility"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/ic_eye_closed"
+                    android:contentDescription="Toggle Password Visibility" />
+            </RelativeLayout>
+
+            <!-- Register Button -->
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/teal_700"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Login Redirect -->
+            <TextView
+                android:id="@+id/loginRedirect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account? Login"
+                android:textColor="@color/login_blue"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

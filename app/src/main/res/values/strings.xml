@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StudentWell</string>
+    <string name="google_maps_key">AIzaSyCDA82tDCVKGnCsdj-tIFoHrmm21r1iSzo</string>
+    <string name="splash_image_desc">Splash screen illustration</string>
+    <string name="splash_image">Splash screen image</string>
+    <string name="create_account_title">Create an Account</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="gender_label">Gender</string>
+    <string name="register">Register</string>
+    <string name="login_redirect_text">Already have an account? Login here.</string>
+</resources>

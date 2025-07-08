@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/btnPark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Parks Nearby" />
+
+    <Button
+        android:id="@+id/btnGym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Find Gyms Nearby" />
+
+    <Button
+        android:id="@+id/btnSports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Find Sports Facilities" />
+</LinearLayout>

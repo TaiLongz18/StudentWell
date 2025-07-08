@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Frequently Asked Questions"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="💧 How much water should I drink daily?\nYou should drink at least 2 to 3 liters of water (about 8-12 glasses) daily to stay hydrated."
+            android:layout_marginBottom="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="\uD83D\uDECC How much sleep do I need?\n7 to 9 hours of sleep is recommended for students for better concentration and health."
+            android:layout_marginBottom="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="\uD83C\uDFC3\u200D♂️ How many steps per day are healthy?\nAim for 8,000–10,000 steps a day to maintain a healthy lifestyle."
+            android:layout_marginBottom="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="\uD83C\uDF7D️ What food should I consume?\nFocus on fruits, vegetables, whole grains, lean protein, and healthy fats. Avoid sugary and processed foods."
+            android:layout_marginBottom="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="\uD83D\uDCDA What's a healthy time to study?\nStudy during peak focus hours: 9am–12pm and 4pm–6pm. Take regular breaks to stay productive."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
